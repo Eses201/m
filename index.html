@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monkey GIFs Interaction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="question">
+        <h1>Do you wanna go out with me?</h1>
+    </div>
+
+    <div id="monkey-gifs">
+        <!-- عرض الـ GIF الأول (Shy Monkey) -->
+        <div id="shy-monkey" class="tenor-gif-embed" data-postid="17723396" data-share-method="host" data-aspect-ratio="1" data-width="100%">
+            <a href="https://tenor.com/view/monkey-cute-blush-shy-gif-17723396">Monkey Cute GIF</a>from 
+            <a href="https://tenor.com/search/monkey-gifs">Monkey GIFs</a>
+        </div>
+        <!-- عرض الـ GIF الثاني (Dancing Monkey) مع إخفائه في البداية -->
+        <div id="dancing-monkey" class="tenor-gif-embed" data-postid="11775476126234681523" data-share-method="host" data-aspect-ratio="1.09333" data-width="100%" style="display: none;">
+            <a href="https://tenor.com/view/dancin-monkey-gif-11775476126234681523">Dancin Monkey Sticker</a>from 
+            <a href="https://tenor.com/search/dancin+monkey-stickers">Dancin Monkey Stickers</a>
+        </div>
+    </div>
+
+    <div id="buttons">
+        <button onclick="showDancingMonkey()">Yes</button>
+        <button>No</button>
+    </div>
+
+    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
